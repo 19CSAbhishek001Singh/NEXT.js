@@ -10,7 +10,7 @@ const ErrorPage = () => {
   }, []);
   return (
     <>
-      <h1>this page is not found go here</h1>
+      <h1 className="text-red-900 text-center font-bold text-6xl">this page is not found go here</h1>
       <div>
         <Link href='/'>
           <a>Home Page</a>
